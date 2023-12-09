@@ -1,0 +1,18 @@
+.footer {
+  background-color: var(--background-dark-cl);
+}
+
+.footer-address {
+  font-size: 14px;
+  font-style: inherit;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+}
+
+.footer-address_descr {
+  color: var(--white-txt-cl);
+}
+
+.footer-address_contacts {
+  color: var(--white-transparent-txt-cl);
+}
