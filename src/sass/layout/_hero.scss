@@ -10,3 +10,11 @@
   color: var(--white-txt-cl);
   text-transform: uppercase;
 }
+
+.hero-btn {
+  font-weight: 700;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--white-txt-cl);
+  background-color: var(--accent-cl);
+}

@@ -1,0 +1,15 @@
+// Фільтр
+.filter-btn {
+  font-weight: 500;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  color: var(--title-txt-cl);
+
+  border-radius: 4px;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--white-txt-cl);
+  background-color: var(--accent-cl);
+}
