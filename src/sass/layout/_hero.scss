@@ -1,12 +1,12 @@
 .hero {
   background-color: var(--background-dark-cl);
-  letter-spacing: 0.06em;
 }
 
 .main-title {
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
   color: var(--white-txt-cl);
   text-transform: uppercase;
 }
@@ -14,7 +14,7 @@
 .hero-btn {
   font-weight: 700;
   line-height: calc(30 / 16);
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
   color: var(--white-txt-cl);
   background-color: var(--accent-cl);
 }
