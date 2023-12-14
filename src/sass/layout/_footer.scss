@@ -1,5 +1,12 @@
 .footer {
   background-color: var(--background-dark-cl);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 20px;
 }
 
 .footer-address {
@@ -7,6 +14,10 @@
   font-style: inherit;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .footer-address_descr {
