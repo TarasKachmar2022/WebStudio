@@ -1,5 +1,8 @@
 .hero {
   background-color: var(--background-dark-cl);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 .main-title {
@@ -9,6 +12,7 @@
   letter-spacing: 0.06em;
   color: var(--white-txt-cl);
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 .hero-btn {
