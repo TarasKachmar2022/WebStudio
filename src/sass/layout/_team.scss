@@ -1,5 +1,19 @@
-.team-title {
+.team {
+  background-color: var(--background-light-cl);
+}
+
+.team-item {
+  background-color: var(--background-white-cl);
+}
+
+.team-wrap {
+  padding: 30px;
+  text-align: center;
+}
+
+.team-subtitle {
   font-weight: 500;
   line-height: calc(19 / 16);
   color: var(--title-txt-cl);
+  margin-bottom: 10px;
 }
