@@ -1,9 +1,14 @@
+.card-container {
+  padding: 20px 24px;
+}
+
 .card-title {
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--title-txt-cl);
+  margin-bottom: 4px;
 }
 
 .card-descr {
