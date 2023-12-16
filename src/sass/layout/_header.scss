@@ -7,10 +7,31 @@
   padding-bottom: 25px;
 }
 
+.main-nav {
+  display: flex;
+  align-items: center;
+}
+
 .site-nav {
+  display: flex;
+  align-items: center;
   color: var(--title-txt-cl);
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 93px;
+}
+
+.header-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .header-link:hover {
   color: var(--accent-cl);
+}
+
+.header-contacts__list {
+  display: flex;
+  margin-left: auto;
 }
