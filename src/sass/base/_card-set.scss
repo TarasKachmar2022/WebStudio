@@ -1,0 +1,9 @@
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30;
+}
+
+.card-item {
+  flex-basis: calc((100% - 30px * 3) / 4);
+}
