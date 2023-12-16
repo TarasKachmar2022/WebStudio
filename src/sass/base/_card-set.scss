@@ -5,5 +5,5 @@
 }
 
 .card-item {
-  flex-basis: calc((100% - 30px * 3) / 4);
+  flex-basis: calc((100% - var(--indent) * (var(--item) - 1)) / var(--item));
 }
