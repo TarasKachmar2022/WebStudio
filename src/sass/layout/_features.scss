@@ -1,3 +1,13 @@
+.feature-container {
+  display: block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-bottom: 30px;
+  background-color: var(--background-light-cl);
+  border-radius: 4px;
+}
+
 .feature-title {
   font-size: 14px;
   line-height: calc(16 / 14);
