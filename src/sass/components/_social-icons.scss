@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
 }
-.social-item {
+.social-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,8 +14,8 @@
   height: 44px;
 }
 
-.social-item:hover,
-.social-item:focus {
+.social-link:hover,
+.social-link:focus {
   color: var(--white-txt-cl);
   background-color: var(--accent-cl);
 }
