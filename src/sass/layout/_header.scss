@@ -3,8 +3,6 @@
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 
 .main-nav {
@@ -27,8 +25,20 @@
   margin-right: 50px;
 }
 
+.header-link {
+  display: flex;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+}
+
 .header-link:hover {
   color: var(--accent-cl);
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .header-contacts__list {
