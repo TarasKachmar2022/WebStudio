@@ -2,7 +2,7 @@
   "name": "webstudio2",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://TarasKachmar2022/webstudio2",
+  "homepage": "https://github.com/TarasKachmar2022/webstudio2",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /webstudio2/"
