@@ -5,35 +5,8 @@
   letter-spacing: 0.02em;
 }
 
-.main-nav {
-  display: flex;
-  align-items: center;
-}
-
-.site-nav {
-  display: flex;
-  align-items: center;
-  color: var(--title-txt-cl);
-}
-
-.nav-list {
-  display: flex;
-  margin-left: 93px;
-}
-
 .header-item:not(:last-child) {
   margin-right: 50px;
-}
-
-.header-link {
-  display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  align-items: center;
-}
-
-.header-link:hover {
-  color: var(--accent-cl);
 }
 
 .header-icon {
