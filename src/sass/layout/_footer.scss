@@ -4,6 +4,11 @@
   padding-bottom: 60px;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -24,6 +29,16 @@
   color: var(--white-txt-cl);
 }
 
+.footer-address_descr:hover,
+.footer-address_descr:focus {
+  color: var(--accent-cl);
+}
+
 .footer-address_contacts {
   color: var(--white-transparent-txt-cl);
+}
+
+.footer-address_contacts:hover,
+.footer-address_contacts:focus {
+  color: var(--accent-cl);
 }

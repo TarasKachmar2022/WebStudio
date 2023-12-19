@@ -1,0 +1,36 @@
+.join {
+  margin-left: 70px;
+}
+
+.join-title {
+  color: var(--white-txt-cl);
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.join-list {
+  display: flex;
+  gap: 10px;
+}
+
+.join-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-txt-cl);
+  width: 44;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--background-dark-social-bg-cl);
+}
+
+.join-link:hover,
+.join-link:focus {
+  background-color: var(--accent-cl);
+}
+
+.join-icon {
+  fill: currentColor;
+}
