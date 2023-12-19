@@ -34,7 +34,7 @@
 .nav-link--current::after {
   position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: -1;
   content: '';
 
   display: block;
