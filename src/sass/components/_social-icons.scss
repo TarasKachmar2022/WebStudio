@@ -12,11 +12,17 @@
   color: var(--icon-cl);
   width: 44px;
   height: 44px;
+  transition-property: color, background-color;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
 }
 
 .social-link-dark {
   color: var(--white-txt-cl);
   background-color: var(--background-dark-social-bg-cl);
+  transition-property: color, background-color;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
 }
 
 .social-link:hover,
