@@ -24,6 +24,10 @@
   --overlay-hero-cl: rgba(47, 48, 58, 0.4);
   // Accent colors
   --accent-cl: #2196f3;
+  // Duration
+  --duration: 250ms;
+  // Delay
+  --delay: cubic-bezier(0.4, 0, 0.2, 1);
   // Other
   --indent: 30px;
   --item: 4;
