@@ -18,6 +18,9 @@
   padding-right: 22px;
   padding-bottom: 6px;
   padding-left: 22px;
+  transition-property: color, background-color, box-shadow;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
 }
 
 .filter-btn:hover,
