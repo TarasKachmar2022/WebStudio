@@ -2,6 +2,12 @@
   --item: 3;
 }
 
+.portfolio-item {
+  transition-property: box-shadow;
+  transition-duration: var(--duration);
+  transition-delay: var(--delay);
+}
+
 .portfolio-item:hover,
 .portfolio-item:focus {
   box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
