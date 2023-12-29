@@ -4,4 +4,23 @@
 
 .about-item {
   --item: 3;
+  position: relative;
+}
+
+.about-descr {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-align: center;
+  padding-top: 27px;
+  padding-right: 5px;
+  padding-bottom: 27px;
+  padding-left: 5px;
+  width: 100%;
+  color: var(--white-txt-cl);
+  background-color: var(--background-dark-o-cl);
+  text-transform: uppercase;
 }
