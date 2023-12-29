@@ -20,9 +20,6 @@
 .social-link-dark {
   color: var(--white-txt-cl);
   background-color: var(--background-dark-social-bg-cl);
-  transition-property: color, background-color;
-  transition-duration: var(--duration);
-  transition-delay: var(--delay);
 }
 
 .social-link:hover,
