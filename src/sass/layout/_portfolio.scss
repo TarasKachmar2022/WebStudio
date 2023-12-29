@@ -38,10 +38,11 @@
   padding-right: 24px;
   padding-bottom: 63px;
   padding-left: 24px;
-  transform: translateY(101%);
+  transform: translateY(100%);
   transition-property: transform;
   transition-duration: var(--duration);
   transition-delay: var(--delay);
+  overflow: hidden;
 }
 
 .overlay-descr {
