@@ -3,6 +3,7 @@
 }
 
 .portfolio-link {
+  display: block;
   transition-property: box-shadow;
   transition-duration: var(--duration);
   transition-delay: var(--delay);
