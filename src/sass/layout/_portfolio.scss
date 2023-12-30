@@ -11,8 +11,7 @@
 
 .portfolio-link:hover,
 .portfolio-link:focus {
-  box-shadow: 1px 4px 6px 0px #00000029, 0px 4px 4px 0px #0000000f,
-    0px 1px 1px 0px #0000001f;
+  box-shadow: var(--portfolio-card-shadow);
 }
 
 .portfolio-link:hover .overlay,
