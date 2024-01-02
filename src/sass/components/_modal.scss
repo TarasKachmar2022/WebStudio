@@ -5,6 +5,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--backdrop-cl);
+  backdrop-filter: blur(2px);
   opacity: 1;
   visibility: visible;
   pointer-events: initial;
