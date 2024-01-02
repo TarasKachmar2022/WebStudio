@@ -6,7 +6,7 @@
   display: block;
   transition-property: box-shadow;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .portfolio-link:hover,
@@ -41,7 +41,7 @@
   transform: translateY(100%);
   transition-property: transform;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
   overflow: hidden;
 }
 

@@ -20,7 +20,7 @@
   padding-left: 22px;
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .filter-btn:hover,

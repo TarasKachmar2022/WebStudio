@@ -14,7 +14,7 @@
   height: 44px;
   transition-property: color, background-color;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .social-link-dark {

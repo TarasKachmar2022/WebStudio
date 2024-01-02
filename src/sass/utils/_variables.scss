@@ -37,8 +37,8 @@
     0px 1px 1px 0px #0000001f;
   // Duration
   --duration: 250ms;
-  // Delay
-  --delay: cubic-bezier(0.4, 0, 0.2, 1);
+  // Timing function
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   // Other
   --indent: 30px;
   --item: 4;

@@ -29,7 +29,7 @@
   color: var(--white-txt-cl);
   transition-property: color;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .footer-address_descr:hover,
@@ -41,7 +41,7 @@
   color: var(--white-transparent-txt-cl);
   transition-property: color;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .footer-address_contacts:hover,

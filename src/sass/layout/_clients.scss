@@ -15,7 +15,7 @@
   padding-left: 32px;
   transition-property: fill, outline;
   transition-duration: var(--duration);
-  transition-delay: var(--delay);
+  transition-timing-function: var(--timing-function);
 }
 
 .clients-link:hover,
