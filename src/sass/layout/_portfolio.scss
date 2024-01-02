@@ -2,15 +2,15 @@
   --item: 3;
 }
 
-.portfolio-link {
+.portfolio-item {
   display: block;
   transition-property: box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
 }
 
-.portfolio-link:hover,
-.portfolio-link:focus {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow: var(--portfolio-card-shadow);
 }
 
