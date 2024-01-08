@@ -1,0 +1,46 @@
+.subscribe {
+  margin-left: auto;
+}
+
+.subscribe-title {
+  color: var(--white-txt-cl);
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form input {
+  height: 50px;
+  width: 358px;
+  border-width: 1px;
+  border-color: var(--subscribe-input-border-cl);
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  outline: none;
+  color: var(--white-txt-cl);
+  background-color: transparent;
+  box-shadow: var(--subscribe-shadow);
+}
+
+.subscribe__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-right: 28px;
+  padding-bottom: 10px;
+  padding-left: 28px;
+  box-shadow: var(--subscribe-shadow);
+}
+
+.subscribe__icon {
+  fill: #fff;
+  margin-left: 10px;
+}
