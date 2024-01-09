@@ -7,3 +7,8 @@
   color: var(--white-txt-cl);
   background-color: var(--accent-cl);
 }
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-hovered-cl);
+}
