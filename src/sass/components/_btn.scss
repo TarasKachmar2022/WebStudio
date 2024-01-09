@@ -6,6 +6,9 @@
   letter-spacing: 0.06em;
   color: var(--white-txt-cl);
   background-color: var(--accent-cl);
+  transition-property: background-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .btn:hover,
