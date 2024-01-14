@@ -5,7 +5,9 @@
         <use href="./images/sprite.svg#icon-close-btn"></use>
       </svg>
     </button>
-    <h2 class="register-form-title">Залиште свої дані, ми вам передзвонимо</h2>
+    <strong class="register-form-title"
+      >Залиште свої дані, ми вам передзвонимо</strong
+    >
     <form>
       <div class="register-form-group">
         <label class="register-form-wrapper">
@@ -50,9 +52,19 @@
       </div>
 
       <label>
-        <input class="register-form-agreement" type="checkbox" name="" />
-        Погоджуюся з розсилкою та приймаю
-        <a class="register-agreement-link" href="">Умови договору</a>
+        <input
+          class="register-form-agreement"
+          type="checkbox"
+          name="agreement"
+        />
+        <svg width="16" height="15">
+          <use href="../images/sprite.svg#icon-uncheked"></use>
+          <use href="../images/sprite.svg#icon-checked"></use>
+        </svg>
+        <span
+          >Погоджуюся з розсилкою та приймаю
+          <a class="register-agreement-link" href="">Умови договору</a>
+        </span>
       </label>
 
       <button class="register-form-btn btn" type="submit">Відправити</button>
