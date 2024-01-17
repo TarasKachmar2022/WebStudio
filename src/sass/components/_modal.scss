@@ -6,9 +6,6 @@
   height: 100%;
   background-color: var(--backdrop-cl);
   backdrop-filter: blur(2px);
-  opacity: 1;
-  visibility: visible;
-  pointer-events: initial;
   transition-property: opacity, visibility;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
@@ -61,6 +58,7 @@
 }
 
 .register-form-title {
+  display: block;
   font-size: 20px;
   line-height: calc(23 / 20);
   color: var(--title-txt-cl);
@@ -129,13 +127,15 @@
   left: 12;
 }
 
-.register-form-agreement {
-  font-weight: 400;
+.register-agreement-input {
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.register-agreement-text {
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  margin: 0 auto;
-  margin-bottom: 30px;
 }
 
 .register-agreement-link {
