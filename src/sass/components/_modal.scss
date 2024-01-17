@@ -23,7 +23,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
+  height: auto;
   padding-top: 40px;
   padding-right: 40px;
   padding-bottom: 40px;
@@ -70,17 +70,17 @@
   margin-bottom: 20px;
 }
 
-.register-form-wrapper {
-  display: flex;
-  flex-direction: column;
+.register-form-wrap {
+  display: block;
   margin-bottom: 10px;
 }
 
-.register-form-wrapper:last-child {
+.register-form-wrap:last-child {
   margin-bottom: 0;
 }
 
 .register-form-label {
+  position: relative;
   display: flex;
   flex-direction: column;
   font-size: 12px;
@@ -89,19 +89,55 @@
   margin-bottom: 4px;
 }
 
-.register-form-wrap {
+.register-form__thumb {
   position: relative;
+  color: var(--icon-modal-cl);
 }
 
-.register-form__input {
+.register-form__input,
+.register-form__message {
   width: 100%;
   height: 40px;
   border-width: 1px;
+  border-style: solid;
   border-color: var(--input-border);
   border-radius: 4px;
   outline: transparent;
   padding-right: 12px;
   padding-left: 40px;
+}
+
+.register-form__input:hover,
+.register-form__input:focus,
+.register-form__message:hover,
+.register-form__message:focus,
+.register-form__input:hover + .register-form-icon,
+.register-form__input:focus + .register-form-icon,
+.register-form-icon:hover {
+  color: var(--accent-cl);
+  border-color: var(--accent-cl);
+}
+
+.register-agreement-checked {
+  opacity: 0;
+}
+
+.register-agreement-label:hover .register-agreement-unchecked {
+  fill: var(--accent-cl);
+}
+
+.register-agreement-input:checked
+  + .register-agreement-icon
+  .register-agreement-checked {
+  opacity: 1;
+}
+
+.register-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12;
+  transform: translateY(-50%);
+  fill: currentColor;
 }
 
 .register-form__message {
@@ -120,16 +156,17 @@
   color: var(--placeholder-txt-cl);
 }
 
-.register-form-icon {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  left: 12;
+.register-agreement-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .register-agreement-input {
-  margin: 0 auto;
-  margin-bottom: 30px;
+  display: none;
 }
 
 .register-agreement-text {
