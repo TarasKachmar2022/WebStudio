@@ -6,9 +6,9 @@
   height: 100%;
   background-color: var(--backdrop-cl);
   backdrop-filter: blur(2px);
-  transition-property: opacity, visibility;
-  transition-duration: var(--duration);
-  transition-timing-function: var(--timing-function);
+  // transition-property: opacity, visibility;
+  // transition-duration: var(--duration);
+  // transition-timing-function: var(--timing-function);
 }
 
 .is-hidden {
@@ -91,7 +91,6 @@
 
 .register-form__thumb {
   position: relative;
-  color: var(--icon-modal-cl);
 }
 
 .register-form__input,
@@ -105,6 +104,21 @@
   outline: transparent;
   padding-right: 12px;
   padding-left: 40px;
+
+  transition-property: border-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.register-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 12;
+  transform: translateY(-50%);
+  color: var(--icon-modal-cl);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
 }
 
 .register-form__input:hover,
@@ -118,25 +132,7 @@
   border-color: var(--accent-cl);
 }
 
-.register-agreement-checked {
-  opacity: 0;
-}
-
-.register-agreement-label:hover .register-agreement-unchecked {
-  fill: var(--accent-cl);
-}
-
-.register-agreement-input:checked
-  + .register-agreement-icon
-  .register-agreement-checked {
-  opacity: 1;
-}
-
-.register-form-icon {
-  position: absolute;
-  top: 50%;
-  left: 12;
-  transform: translateY(-50%);
+.register-form-use {
   fill: currentColor;
 }
 
@@ -167,6 +163,34 @@
 
 .register-agreement-input {
   display: none;
+}
+
+.register-agreement-icon {
+  color: var(--icon-modal-cl);
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.register-agreement-label:hover .register-agreement-icon {
+  color: var(--accent-cl);
+}
+
+.register-agreement-checked {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+}
+
+.register-agreement-unchecked {
+  fill: currentColor;
+}
+
+.register-agreement-input:checked
+  + .register-agreement-icon
+  .register-agreement-checked {
+  opacity: 1;
 }
 
 .register-agreement-text {
