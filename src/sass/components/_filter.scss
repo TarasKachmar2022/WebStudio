@@ -1,15 +1,18 @@
 // Фільтр
 .filter-list {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 48px;
 }
 
 .filter-btn {
+  display: block;
   font-weight: 500;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em;
+  text-align: center;
   color: var(--title-txt-cl);
   background-color: var(--background-light-cl);
 
@@ -24,7 +27,8 @@
 }
 
 .filter-btn:hover,
-.filter-btn:focus {
+.filter-btn:focus,
+.filter-btn:checked + .filter-btn {
   color: var(--white-txt-cl);
   background-color: var(--accent-cl);
   box-shadow: var(--filter-btn-shadow);
