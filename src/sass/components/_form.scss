@@ -78,8 +78,10 @@
   resize: none;
 }
 
+.form__input::placeholder,
 .form__message::placeholder {
   font-size: 12px;
+  font-style: italic;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: var(--placeholder-txt-cl);
