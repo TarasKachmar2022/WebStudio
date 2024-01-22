@@ -18,6 +18,7 @@
     "url": "https://github.com/TarasKachmar2022/webstudio2/issues"
   },
   "dependencies": {
+    "imask": "^7.3.0",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
