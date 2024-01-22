@@ -1,0 +1,44 @@
+.feedback-section {
+  background-color: var(--background-light-cl);
+}
+
+.feedback-title {
+  margin-bottom: 25px;
+  color: var(--title-txt-cl);
+}
+
+.feedback-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--indent);
+  margin-bottom: 30px;
+}
+
+.feedback-item {
+  --item: 2;
+}
+
+.feedback-label {
+  opacity: 0;
+}
+
+.feedback-input {
+  padding-left: 12px;
+}
+
+.feedback-message {
+  height: 176px;
+}
+
+.feedback-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  padding-top: 10px;
+  padding-right: 52px;
+  padding-bottom: 10px;
+  padding-left: 52px;
+  box-shadow: var(--modal-btn-shadow);
+}
