@@ -1,15 +1,15 @@
 @import '../sass/base/common';
-@import '../sass/base/container';
-@import '../sass/base/section';
-@import '../sass/base/card-set';
+@import '../sass/base/reset';
 
 @import '../sass/utils/variables';
-@import '../sass/utils/reset';
 @import '../sass/utils/hidden';
 
 @import '../sass/components/nav';
 @import '../sass/components/logo';
 @import '../sass/components/btn';
+@import '../sass/components/container';
+@import '../sass/components/section';
+@import '../sass/components/card-set';
 @import '../sass/components/social-icons';
 @import '../sass/components/join';
 @import '../sass/components/subscribe';

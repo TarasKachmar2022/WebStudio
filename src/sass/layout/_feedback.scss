@@ -7,7 +7,7 @@
   color: var(--title-txt-cl);
 }
 
-.feedback-group {
+.feedback-form-group {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,23 +15,23 @@
   margin-bottom: 30px;
 }
 
-.feedback-item {
+.feedback-form-item {
   --item: 2;
 }
 
-.feedback-label {
+.feedback-form-label {
   opacity: 0;
 }
 
-.feedback-input {
+.feedback-form-input {
   padding-left: 12px;
 }
 
-.feedback-message {
+.feedback-form-message {
   height: 176px;
 }
 
-.feedback-btn {
+.feedback-form-btn {
   display: flex;
   align-items: center;
   justify-content: center;
