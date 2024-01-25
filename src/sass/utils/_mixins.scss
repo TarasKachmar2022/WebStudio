@@ -1,4 +1,4 @@
-@mixin font($fw: 400, $fs: 14px, $lh: normal, $ls: 0.03em) {
+@mixin font($fw: 400, $fs: 16px, $lh: normal, $ls: 0.03em) {
   font-weight: $fw;
   font-size: $fs;
   line-height: $lh;
@@ -27,6 +27,16 @@
 //   @media screen and (min-width: $size) {
 //     @content;
 //   }
+// }
+
+// @mixin card-set($indent) {
+//   display: flex;
+//   flex-wrap: wrap;
+//   gap: var($indent);
+// }
+
+// @mixin card-item($indent, $item) {
+//   flex-basis: calc((100% - $indent * ($item - 1)) / $item);
 // }
 
 // @mixin retina {
