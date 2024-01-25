@@ -1,17 +1,17 @@
-.form-group {
+.modal-form-group {
   margin-bottom: 20px;
 }
 
-.form-wrap {
+.modal-form-wrap {
   display: block;
   margin-bottom: 10px;
 }
 
-.form-wrap:last-child {
+.modal-form-wrap:last-child {
   margin-bottom: 0;
 }
 
-.form-label {
+.modal-form-label {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -21,12 +21,12 @@
   margin-bottom: 4px;
 }
 
-.form__thumb {
+.modal-form__thumb {
   position: relative;
 }
 
-.form__input,
-.form__message {
+.modal-form__input,
+.modal-form__message {
   width: 100%;
   height: 40px;
   border-width: 1px;
@@ -41,7 +41,7 @@
   transition-timing-function: var(--timing-function);
 }
 
-.form-icon {
+.modal-form-icon {
   position: absolute;
   top: 50%;
   left: 12;
@@ -52,24 +52,24 @@
   transition-timing-function: var(--timing-function);
 }
 
-.form__input:hover,
-.form__input:focus,
-.form__message:hover,
-.form__message:focus {
+.modal-form__input:hover,
+.modal-form__input:focus,
+.modal-form__message:hover,
+.modal-form__message:focus {
   border-color: var(--accent-cl);
 }
 
-.form__input:hover + .form-icon,
-.form__input:focus + .form-icon,
-.form-icon:hover {
+.modal-form__input:hover + .modal-form-icon,
+.modal-form__input:focus + .modal-form-icon,
+.modal-form-icon:hover {
   color: var(--accent-cl);
 }
 
-.form-use {
+.modal-form-use {
   fill: currentColor;
 }
 
-.form__message {
+.modal-form__message {
   height: 120px;
   padding-top: 12px;
   padding-right: 16px;
@@ -78,8 +78,8 @@
   resize: none;
 }
 
-.form__input::placeholder,
-.form__message::placeholder {
+.modal-form__input::placeholder,
+.modal-form__message::placeholder {
   font-size: 12px;
   font-style: italic;
   line-height: calc(14 / 12);

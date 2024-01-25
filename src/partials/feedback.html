@@ -2,12 +2,12 @@
   <div class="container">
     <h2 class="feedback-title">Ви також можете задати питання через форму:</h2>
     <form class="feedback-form" name="feedback-form" autocomplete="on">
-      <div class="form-group feedback-form-group" role="group">
+      <div class="feedback-form-group" role="group">
         <div class="feedback-form-item card-item">
-          <label class="form-wrap">
-            <span class="form-label">Ім'я</span>
+          <label class="feedback-form-wrap">
+            <span class="feedback-form-label">Ім'я</span>
             <input
-              class="form__input feedback-form-input"
+              class="feedback-form-input"
               type="text"
               name="username"
               placeholder="Степан"
@@ -15,10 +15,10 @@
               title="Username must be two words separated by space."
             />
           </label>
-          <label class="form-wrap">
-            <span class="form-label">Телефон</span>
+          <label class="feedback-form-wrap">
+            <span class="feedback-form-label">Телефон</span>
             <input
-              class="form__input feedback-form-input"
+              class="feedback-form-input"
               type="tel"
               name="userphone"
               placeholder="+38(012)345-67-89"
@@ -28,10 +28,10 @@
               required
             />
           </label>
-          <label class="form-wrap">
-            <span class="form-label">E-mail</span>
+          <label class="feedback-form-wrap">
+            <span class="feedback-form-label">E-mail</span>
             <input
-              class="form__input feedback-form-input"
+              class="feedback-form-input"
               type="email"
               name="useremail"
               placeholder="example@mail.com"
@@ -41,9 +41,11 @@
         </div>
 
         <div class="feedback-form-item card-item" feedback__message>
-          <span class="form-label feedback-form-label">Повідомлення</span>
+          <span class="feedback-form-label feedback-form-label--message"
+            >Повідомлення</span
+          >
           <textarea
-            class="form__message feedback-form-message"
+            class="feedback-form-message feedback-form--message"
             name="feedback"
             placeholder="Ваше питання"
           ></textarea>
