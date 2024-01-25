@@ -15,17 +15,17 @@
   transition-property: color, background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--white-txt-cl);
+    background-color: var(--accent-cl);
+  }
 }
 
 .social-link-dark {
   color: var(--white-txt-cl);
   background-color: var(--background-dark-social-bg-cl);
-}
-
-.social-link:hover,
-.social-link:focus {
-  color: var(--white-txt-cl);
-  background-color: var(--accent-cl);
 }
 
 .social-icons {

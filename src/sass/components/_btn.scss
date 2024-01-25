@@ -9,9 +9,9 @@
   transition-property: background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-hovered-cl);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-hovered-cl);
+  }
 }

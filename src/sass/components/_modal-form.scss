@@ -5,10 +5,10 @@
 .modal-form-wrap {
   display: block;
   margin-bottom: 10px;
-}
 
-.modal-form-wrap:last-child {
-  margin-bottom: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .modal-form-label {
@@ -39,6 +39,20 @@
   transition-property: border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-cl);
+  }
+
+  &::placeholder,
+  &::placeholder {
+    font-size: 12px;
+    font-style: italic;
+    line-height: calc(14 / 12);
+    letter-spacing: 0.01em;
+    color: var(--placeholder-txt-cl);
+  }
 }
 
 .modal-form-icon {
@@ -50,19 +64,12 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.modal-form__input:hover,
-.modal-form__input:focus,
-.modal-form__message:hover,
-.modal-form__message:focus {
-  border-color: var(--accent-cl);
-}
-
-.modal-form__input:hover + .modal-form-icon,
-.modal-form__input:focus + .modal-form-icon,
-.modal-form-icon:hover {
-  color: var(--accent-cl);
+  .modal-form__input:hover + &,
+  .modal-form__input:focus + &,
+  &:hover {
+    color: var(--accent-cl);
+  }
 }
 
 .modal-form-use {
@@ -75,13 +82,4 @@
   padding-right: 16px;
   padding-bottom: 12px;
   padding-left: 16px;
-}
-
-.modal-form__input::placeholder,
-.modal-form__message::placeholder {
-  font-size: 12px;
-  font-style: italic;
-  line-height: calc(14 / 12);
-  letter-spacing: 0.01em;
-  color: var(--placeholder-txt-cl);
 }

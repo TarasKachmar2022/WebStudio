@@ -19,13 +19,11 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.contacts-link:hover,
-.contacts-link:focus,
-.contacts-link:hover .contacts-icon,
-.contacts-link:focus .contacts-icon {
-  color: var(--accent-cl);
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
 }
 
 .contacts-subtitle {
@@ -41,6 +39,11 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  .contacts-link:hover &,
+  .contacts-link:focus & {
+    color: var(--accent-cl);
+  }
 }
 
 .contacts-icon-use {

@@ -15,7 +15,6 @@
   text-align: center;
   color: var(--title-txt-cl);
   background-color: var(--background-light-cl);
-
   border-radius: 4px;
   padding-top: 6px;
   padding-right: 22px;
@@ -24,12 +23,12 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.filter-btn:hover,
-.filter-btn:focus,
-.filter-btn:checked + .filter-btn {
-  color: var(--white-txt-cl);
-  background-color: var(--accent-cl);
-  box-shadow: var(--filter-btn-shadow);
+  &:hover,
+  &:focus,
+  &:checked + & {
+    color: var(--white-txt-cl);
+    background-color: var(--accent-cl);
+    box-shadow: var(--filter-btn-shadow);
+  }
 }

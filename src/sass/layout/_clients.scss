@@ -16,10 +16,10 @@
   transition-property: fill, outline;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.clients-link:hover,
-.clients-link:focus {
-  outline: 1px solid var(--accent-cl);
-  fill: var(--accent-cl);
+  &:hover,
+  &:focus {
+    outline: 1px solid var(--accent-cl);
+    fill: var(--accent-cl);
+  }
 }

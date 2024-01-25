@@ -9,16 +9,11 @@
   transition-property: box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
-}
 
-.portfolio-link:hover,
-.portfolio-link:focus {
-  box-shadow: var(--portfolio-card-shadow);
-}
-
-.portfolio-link:hover .overlay,
-.portfolio-link:focus .overlay {
-  transform: translateY(0);
+  &:hover,
+  &:focus {
+    box-shadow: var(--portfolio-card-shadow);
+  }
 }
 
 .portfolio-thumb {
@@ -45,6 +40,11 @@
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
   overflow: hidden;
+
+  .portfolio-link:hover &,
+  .portfolio-link:focus & {
+    transform: translateY(0);
+  }
 }
 
 .overlay-descr {

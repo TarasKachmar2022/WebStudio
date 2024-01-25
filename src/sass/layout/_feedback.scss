@@ -52,6 +52,11 @@
   transition-property: border-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-cl);
+  }
 }
 
 .feedback-form--message {
