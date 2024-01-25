@@ -1,13 +1,9 @@
 .social-list {
-  display: flex;
+  @extend %centeredFlex;
   gap: 10px;
-  align-items: center;
-  justify-content: center;
 }
 .social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
   border-radius: 50%;
   color: var(--icon-cl);
   width: 44px;

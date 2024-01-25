@@ -34,9 +34,7 @@
 }
 
 .subscribe__btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
   padding-top: 10px;
   padding-right: 28px;
   padding-bottom: 10px;

@@ -8,9 +8,7 @@
 }
 
 .feedback-form-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
   gap: var(--indent);
   margin-bottom: 30px;
 }
@@ -66,9 +64,7 @@
 }
 
 .feedback-form-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @extend %centeredFlex;
   margin-left: auto;
   padding-top: 10px;
   padding-right: 52px;

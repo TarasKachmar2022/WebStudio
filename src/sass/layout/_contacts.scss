@@ -14,8 +14,7 @@
 }
 
 .contacts-link {
-  display: flex;
-  align-items: center;
+  @extend %align-list;
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
