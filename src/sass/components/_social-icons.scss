@@ -1,8 +1,9 @@
-.social-list {
+.social__list {
   @extend %centeredFlex;
   gap: 10px;
 }
-.social-link {
+
+.social__link {
   @extend %centeredFlex;
   border-radius: 50%;
   color: var(--icon-cl);
@@ -19,11 +20,11 @@
   }
 }
 
-.social-link-dark {
+.social__link--dark {
   color: var(--white-txt-cl);
   background-color: var(--background-dark-social-bg-cl);
 }
 
-.social-icons {
+.social__icons {
   fill: currentColor;
 }

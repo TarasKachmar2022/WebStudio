@@ -5,20 +5,35 @@
   letter-spacing: 0.02em;
 }
 
-.header-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.header-icon {
-  margin-right: 10px;
-  fill: currentColor;
+.header__container {
+  @extend %align-list;
 }
 
 .header-contacts__list {
   display: flex;
+  gap: 50px;
   margin-left: auto;
 }
 
-.header-line {
+.header-contacts__link {
+  @extend %align-list;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  transition-property: color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-cl);
+  }
+}
+
+.header-contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header__line {
   border-bottom: 1px solid var(--header-border-cl);
 }

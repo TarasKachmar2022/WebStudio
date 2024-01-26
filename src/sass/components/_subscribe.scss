@@ -2,7 +2,7 @@
   margin-left: auto;
 }
 
-.subscribe-title {
+.subscribe__title {
   color: var(--white-txt-cl);
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -10,15 +10,16 @@
   margin-bottom: 20px;
 }
 
-.subscribe-form {
+.subscribe__form {
   display: flex;
   gap: 12px;
 }
 
-.subscribe-form-input {
+.subscribe__input {
   height: 50px;
   width: 358px;
   border-width: 1px;
+  border-style: solid;
   border-color: var(--subscribe-input-border-cl);
   border-radius: 4px;
   padding-left: 16px;
@@ -27,6 +28,14 @@
   color: var(--white-txt-cl);
   background-color: transparent;
   box-shadow: var(--subscribe-shadow);
+  transition-property: border-color;
+  transition-duration: var(--duration);
+  transition-timing-function: var(--timing-function);
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-cl);
+  }
 
   &::placeholder {
     font-style: italic;

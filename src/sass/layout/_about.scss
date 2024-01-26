@@ -2,12 +2,16 @@
   padding-bottom: 94px;
 }
 
-.about-item {
+.about__title {
+  margin-bottom: 50px;
+}
+
+.about__item {
   --item: 3;
   position: relative;
 }
 
-.about-descr {
+.about__descr {
   position: absolute;
   left: 0;
   bottom: 0;

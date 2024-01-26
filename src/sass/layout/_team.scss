@@ -2,8 +2,11 @@
   background-color: var(--background-light-cl);
 }
 
-.team-item {
+.team__list {
   --item: 4;
+}
+
+.team__item {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
   border-bottom-right-radius: 4px;
@@ -12,18 +15,18 @@
   box-shadow: var(--team-card-shadow);
 }
 
-.team-wrap {
+.team__wrap {
   padding: 30 10;
   text-align: center;
 }
 
-.team-subtitle {
+.team__subtitle {
   font-weight: 500;
   line-height: calc(19 / 16);
   color: var(--title-txt-cl);
   margin-bottom: 10px;
 }
 
-.team-descr {
+.team__descr {
   margin-bottom: 16px;
 }

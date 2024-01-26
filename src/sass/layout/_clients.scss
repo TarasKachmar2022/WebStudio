@@ -1,8 +1,12 @@
-.clients-item {
+.clients-title {
+  margin-bottom: 50px;
+}
+
+.clients__item {
   --item: 6;
 }
 
-.clients-link {
+.clients__link {
   @extend %centeredFlex;
   outline: 1px solid var(--icon-cl);
   border-radius: 4px;

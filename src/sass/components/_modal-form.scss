@@ -1,8 +1,8 @@
-.modal-form-group {
+.modal-form__group {
   margin-bottom: 20px;
 }
 
-.modal-form-wrap {
+.modal-form__wrap {
   display: block;
   margin-bottom: 10px;
 
@@ -11,7 +11,7 @@
   }
 }
 
-.modal-form-label {
+.modal-form__label {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -55,7 +55,7 @@
   }
 }
 
-.modal-form-icon {
+.modal-form__icon {
   position: absolute;
   top: 50%;
   left: 12;
@@ -72,7 +72,7 @@
   }
 }
 
-.modal-form-use {
+.modal-form__use {
   fill: currentColor;
 }
 

@@ -1,5 +1,5 @@
 // Фільтр
-.filter-list {
+.filter__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -7,7 +7,7 @@
   margin-bottom: 48px;
 }
 
-.filter-btn {
+.filter__btn {
   display: block;
   font-weight: 500;
   line-height: calc(26 / 16);

@@ -1,18 +1,15 @@
-.main-nav {
-  @extend %align-list;
-}
-
 .site-nav {
   @extend %align-list;
   color: var(--title-txt-cl);
 }
 
-.nav-list {
+.site-nav__list {
   display: flex;
+  gap: 50px;
   margin-left: 93px;
 }
 
-.nav-link {
+.site-nav__link {
   @extend %align-list;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -26,7 +23,7 @@
   }
 }
 
-.nav-link--current {
+.site-nav__link--current {
   position: relative;
   color: var(--accent-cl);
 
