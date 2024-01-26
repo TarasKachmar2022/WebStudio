@@ -1,7 +1,6 @@
 .footer {
+  @include section(60, null, 60);
   background-color: var(--background-dark-cl);
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 .footer__container {

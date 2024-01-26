@@ -1,4 +1,8 @@
 // Фільтр
+.filter {
+  @include section();
+}
+
 .filter__list {
   display: flex;
   flex-wrap: wrap;

@@ -1,4 +1,5 @@
 .team {
+  @include section();
   background-color: var(--background-light-cl);
 }
 

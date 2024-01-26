@@ -1,3 +1,7 @@
+.feature {
+  @include section();
+}
+
 .feature-container {
   display: block;
   text-align: center;

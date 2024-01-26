@@ -1,5 +1,5 @@
 .about {
-  padding-bottom: 94px;
+  @include section(null, null, 94);
 }
 
 .about__title {

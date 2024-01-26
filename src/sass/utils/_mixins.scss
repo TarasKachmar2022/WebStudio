@@ -5,6 +5,11 @@
   letter-spacing: $ls;
 }
 
+@mixin section($pt: 94px, $pr: null, $pb: 94px, $pl: null) {
+  padding-top: $pt;
+  padding-bottom: $pb;
+}
+
 // @mixin mobile {
 //   @media screen and (min-width: 480px) {
 //     @content;

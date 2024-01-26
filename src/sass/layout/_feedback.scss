@@ -1,4 +1,5 @@
 .feedback {
+  @include section();
   background-color: var(--background-light-cl);
 }
 
