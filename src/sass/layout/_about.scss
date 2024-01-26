@@ -3,6 +3,7 @@
 }
 
 .about__title {
+  @extend %section-title;
   margin-bottom: 50px;
 }
 
