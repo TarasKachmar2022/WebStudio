@@ -9,6 +9,10 @@
   @extend %align-list;
 }
 
+.header__nav-list {
+  margin-left: 93px;
+}
+
 .header-contacts__list {
   display: flex;
   gap: 50px;
