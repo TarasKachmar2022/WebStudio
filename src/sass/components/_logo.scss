@@ -4,12 +4,12 @@
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
   color: var(--accent-cl);
-}
 
-.logo--black {
-  color: var(--black-txt-cl);
-}
+  &--black {
+    color: var(--black-txt-cl);
+  }
 
-.logo--white {
-  color: var(--white-txt-cl);
+  &--white {
+    color: var(--white-txt-cl);
+  }
 }
