@@ -1,11 +1,13 @@
 .footer {
-  @include section(60, null, 60);
+  @include section(60px, 60px);
   background-color: var(--background-dark-cl);
 }
 
 .footer__container {
-  display: flex;
-  align-items: baseline;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: baseline;
+  }
 }
 
 .footer__logo {

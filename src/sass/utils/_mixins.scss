@@ -5,7 +5,7 @@
   letter-spacing: $ls;
 }
 
-@mixin section($pt: 94px, $pr: null, $pb: 94px, $pl: null) {
+@mixin section($pt: 94px, $pb: 94px) {
   padding-top: $pt;
   padding-bottom: $pb;
 }
