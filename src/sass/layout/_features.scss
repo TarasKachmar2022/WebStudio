@@ -1,14 +1,13 @@
 .feature {
-  @include section(60px, 60px);
+  @include section();
   --item: 1;
 
   @media screen and (min-width: 768px) {
-    @include section();
     --item: 2;
   }
 
   @media screen and (min-width: 1200px) {
-    @include section();
+    @include section(94px, 94px);
   }
 }
 

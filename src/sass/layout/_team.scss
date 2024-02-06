@@ -1,15 +1,31 @@
 .team {
   @include section();
   background-color: var(--background-light-cl);
+
+  @media screen and (min-width: 1200px) {
+    @include section(94px, 94px);
+  }
 }
 
 .team__title {
   @extend %section-title;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 50px;
+  }
 }
 
 .team__list {
-  --item: 4;
+  --item: 1;
+
+  @media screen and (min-width: 768px) {
+    --item: 2;
+  }
+
+  @media screen and (min-width: 1200px) {
+    --item: 4;
+  }
 }
 
 .team__item {

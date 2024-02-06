@@ -10,8 +10,13 @@
 }
 
 %section-title {
-  font-size: 36px;
-  line-height: calc(42 / 36);
+  font-size: 28px;
+  line-height: 1.18;
   color: var(--title-txt-cl);
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    font-size: 36px;
+    line-height: 1.17;
+  }
 }
