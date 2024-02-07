@@ -1,6 +1,7 @@
 .hero {
   @include section(118px, 118px);
   background-color: var(--background-hero-cl);
+  margin-top: 64px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
