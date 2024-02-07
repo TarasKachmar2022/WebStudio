@@ -37,7 +37,8 @@
 .filter__btn {
   display: block;
   font-weight: 500;
-  line-height: calc(26 / 16);
+  font-size: 12px;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
   color: var(--title-txt-cl);
@@ -50,6 +51,10 @@
   transition-property: color, background-color, box-shadow;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  @media screen and (min-width: 480px) {
+    font-size: 16px;
+  }
 
   &:hover,
   &:focus,

@@ -1,5 +1,13 @@
 .portfolio__list {
-  --item: 3;
+  --item: 1;
+
+  @media screen and (min-width: 768px) {
+    --item: 2;
+  }
+
+  @media screen and (min-width: 1200px) {
+    --item: 3;
+  }
 }
 
 .portfolio__link {
