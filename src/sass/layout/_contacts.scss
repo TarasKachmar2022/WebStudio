@@ -1,20 +1,33 @@
 .contacts {
   @include section();
+
+  @media screen and (min-width: 1200px) {
+    @include section(94px, 94px);
+  }
 }
 
 .contacts-container {
-  display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row-reverse;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .contacts__wrap {
-  padding: 50px;
+  padding-bottom: 50px;
 }
 
 .contacts-title {
   @extend %section-title;
+  font-size: 24px;
   margin-bottom: 50px;
+
+  @media screen and (min-width: 480px) {
+    font-size: 28px;
+  }
 }
 
 .contacts-subtitle {
@@ -34,6 +47,10 @@
   transition-property: color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  @media screen and (max-width: 1199px) {
+    justify-content: center;
+  }
 
   &:hover,
   &:focus {
@@ -56,4 +73,16 @@
 
 .contacts__icon-use {
   stroke: currentColor;
+}
+
+.contacts__iframe {
+  width: 290px;
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 738px;
+  }
 }
