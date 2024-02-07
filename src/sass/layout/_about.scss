@@ -2,7 +2,7 @@
   display: none;
 
   @media screen and (min-width: 1200px) {
-    @include section(94px);
+    @include section(0, 94px);
     display: block;
   }
 }
