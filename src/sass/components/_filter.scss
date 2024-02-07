@@ -1,14 +1,37 @@
 // Фільтр
 .filter {
-  @include section();
+  @include section(60px, 40px);
+
+  @media screen and (min-width: 768px) {
+    @include section(60px, 30px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    @include section(94px);
+  }
 }
 
 .filter__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 326px;
   gap: 10px;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 48px;
+  }
 }
 
 .filter__btn {
