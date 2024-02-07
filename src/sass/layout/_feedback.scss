@@ -9,9 +9,14 @@
 }
 
 .feedback-form__group {
-  @extend %centeredFlex;
-  gap: var(--indent);
   margin-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--indent);
+  }
 }
 
 .feedback-form__item {
@@ -69,10 +74,14 @@
 
 .feedback-form__btn {
   @extend %centeredFlex;
-  margin-left: auto;
+  margin: 0 auto;
   padding-top: 10px;
   padding-right: 52px;
   padding-bottom: 10px;
   padding-left: 52px;
   box-shadow: var(--modal-btn-shadow);
+
+  @media screen and (min-width: 768px) {
+    margin-left: auto;
+  }
 }
