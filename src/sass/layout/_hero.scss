@@ -1,4 +1,5 @@
 .hero {
+  @include section(118px, 118px);
   background-color: var(--background-hero-cl);
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +14,6 @@
   background-size: cover;
 
   @media screen and (min-width: 480px) {
-    @include section(118px, 118px);
     max-width: 480px;
   }
 
