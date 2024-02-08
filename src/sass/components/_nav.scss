@@ -4,8 +4,16 @@
 }
 
 .site-nav__list {
-  display: flex;
-  gap: 50px;
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 50px;
+  }
 }
 
 .site-nav__link {

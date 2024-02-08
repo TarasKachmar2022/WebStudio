@@ -1,9 +1,13 @@
-const refs = {
-  burgerBtn: document.querySelector('[data-burger-btn]'),
-};
+(() => {
+  const burgerBtn = document.querySelector('[data-burger-btn]');
+  const menu = document.querySelector('[data-menu]');
 
-refs.burgerBtn.addEventListener('click', toggleMenu);
+  burgerBtn.addEventListener('click', () => {
+    const expanded =
+      burgerBtn.getAttribute('aria-expanded') === 'true' || false;
 
-function toggleMenu() {
-  refs.burgerBtn.classList.toggle('active');
-}
+    burgerBtn.classList.toggle('active');
+    burgerBtn.setAttribute('aria-expanded', !expanded);
+    menu.classList.toggle('is-open');
+  });
+})();
