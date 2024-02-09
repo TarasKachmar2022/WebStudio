@@ -2,8 +2,12 @@
 .filter {
   @include section(60px, 40px);
 
+  @media screen and (max-width: 767px) {
+    margin-top: 64px;
+  }
   @media screen and (min-width: 768px) {
     @include section(60px, 30px);
+    margin-top: 64px;
   }
 
   @media screen and (min-width: 1200px) {
@@ -20,7 +24,7 @@
   margin-bottom: 40px;
 
   @media screen and (max-width: 767px) {
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   @media screen and (min-width: 768px) {
@@ -30,7 +34,7 @@
   }
 
   @media screen and (min-width: 1200px) {
-    margin-bottom: 48px;
+    margin-bottom: 50px;
   }
 }
 
