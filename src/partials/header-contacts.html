@@ -13,12 +13,13 @@
         type="button"
         aria-label="Переключатель мобільного меню"
         aria-expanded="false"
-        data-burger-btn
+        aria-controls="mobile-menu"
+        data-menu-btn
       >
         <span class="burger__icon"></span>
       </button>
     </div>
-    <div class="mobile-menu" data-menu>
+    <div class="mobile-menu" id="mobile-menu" data-menu>
       <div class="mobile-menu__container">
         <nav class="header__site-nav site-nav">
           <ul class="site-nav__list header__nav-list">
