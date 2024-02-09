@@ -1,2 +1,0 @@
-(()=>{const e=document.querySelector("[data-burger-btn]"),t=document.querySelector("[data-menu]");e.addEventListener("click",(()=>{const a="true"===e.getAttribute("aria-expanded")||!1;e.classList.toggle("active"),e.setAttribute("aria-expanded",!a),t.classList.toggle("is-open")}))})();const e=document.querySelector("#phone");new IMask(e,{mask:"+{38}(000)000-00-00"});
-//# sourceMappingURL=contacts.1ac2097b.js.map
