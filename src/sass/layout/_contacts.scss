@@ -1,6 +1,14 @@
 .contacts {
   @include section();
 
+  @media screen and (max-width: 767px) {
+    margin-top: 64px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 64px;
+  }
+
   @media screen and (min-width: 1200px) {
     @include section(94px, 94px);
   }
