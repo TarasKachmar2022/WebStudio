@@ -1,2 +1,2 @@
-import './js/burger-btn';
+import './js/mobile-menu';
 import './js/phone-mask';
