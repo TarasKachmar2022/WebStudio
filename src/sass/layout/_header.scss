@@ -9,10 +9,10 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   background-color: var(--background-white-cl);
+  border-bottom: 1px solid var(--header-border-cl);
 
   @media screen and (max-width: 767px) {
     height: auto;
-    border-bottom: 1px solid var(--header-border-cl);
     background-color: #fff;
   }
 
