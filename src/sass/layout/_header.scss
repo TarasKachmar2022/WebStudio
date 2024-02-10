@@ -4,7 +4,7 @@
   left: 0;
   width: 100%;
   z-index: 300;
-  font-weight: 500;
+  font-weight: var(--fw-header);
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;

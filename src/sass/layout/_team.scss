@@ -43,7 +43,7 @@
 }
 
 .team__subtitle {
-  font-weight: 500;
+  font-weight: var(--fw-team-subtitle);
   line-height: calc(19 / 16);
   color: var(--title-txt-cl);
   margin-bottom: 10px;

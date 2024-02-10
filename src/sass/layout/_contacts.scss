@@ -40,7 +40,7 @@
 }
 
 .contacts-subtitle {
-  font-weight: 500;
+  font-weight: var(--fw-contacts-subtitle);
   text-align: center;
   color: var(--title-txt-cl);
   margin-bottom: 20px;
