@@ -7,7 +7,7 @@
   font-weight: var(--fw-header);
   font-size: var(--fs-header);
   line-height: var(--lh-header);
-  letter-spacing: 0.02em;
+  letter-spacing: var(--ls-header);
   background-color: var(--background-white-cl);
   border-bottom: 1px solid var(--header-border-cl);
 
@@ -176,7 +176,7 @@
   @media screen and (max-width: 767px) {
     font-size: var(--fs-header-socials-link);
     line-height: var(--lh-header-socials-link);
-    letter-spacing: 0.02em;
+    letter-spacing: var(--ls-header-socials-link);
     color: var(--accent-cl);
     padding-top: 10px;
     padding-bottom: 10px;

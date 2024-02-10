@@ -43,7 +43,7 @@
   font-size: var(--fs-footer-address);
   font-style: inherit;
   line-height: var(--lh-footer-address);
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-footer-address);
 }
 
 .footer__item:not(:last-child) {

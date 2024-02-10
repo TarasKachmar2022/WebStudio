@@ -17,7 +17,7 @@
   flex-direction: column;
   font-size: var(--fs-modal-form-label);
   line-height: var(--lh-modal-form-label);
-  letter-spacing: 0.01em;
+  letter-spacing: var(--ls-modal-form-label);
   margin-bottom: 4px;
 }
 
@@ -50,7 +50,7 @@
     font-size: var(--fs-modal-form-placeholder);
     font-style: italic;
     line-height: var(--lh-modal-form-placeholder);
-    letter-spacing: 0.01em;
+    letter-spacing: var(--ls-modal-form-placeholder);
     color: var(--placeholder-txt-cl);
   }
 }

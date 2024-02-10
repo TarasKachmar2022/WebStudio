@@ -125,7 +125,7 @@
 .modal-form__agreement-text {
   font-size: var(--fs-modal-egreement-s);
   line-height: var(--lh-modal-egreement);
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-modal-egreement);
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-modal-egreement-m);

@@ -41,9 +41,9 @@
 .filter__btn {
   display: block;
   font-weight: var(--fw-filter-btn);
-  font-size: var(--fs-filter-btn);
+  font-size: var(--fs-filter-btn-s);
   line-height: var(--lh-filter-btn);
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-filter-btn);
   text-align: center;
   color: var(--title-txt-cl);
   background-color: var(--background-light-cl);
@@ -57,7 +57,7 @@
   transition-timing-function: var(--timing-function);
 
   @media screen and (min-width: 480px) {
-    font-size: 16px;
+    font-size: var(--fs-filter-btn-m);
   }
 
   &:hover,

@@ -13,7 +13,8 @@
   // Font sizes
   --fs-section-title-s: 28px;
   --fs-section-title-t: 36px;
-  --fs-filter-btn: 12px;
+  --fs-filter-btn-s: 12px;
+  --fs-filter-btn-m: 16px;
   --fs-logo: 26px;
   --fs-modal-form-label: 12px;
   --fs-modal-form-placeholder: 12px;
@@ -71,6 +72,17 @@
   --lh-modal-egreement-s: 1.2;
   --lh-modal-egreement-m: 1.17;
   --lh-modal-egreement-d: 1.71;
+  // Letter spacing
+  --ls-filter-btn: 0.03em;
+  --ls-logo: 0.03em;
+  --ls-header: 0.02em;
+  --ls-footer-address: 0.03em;
+  --ls-main-title: 0.06em;
+  --ls-portfolio-card-title: 0.06em;
+  --ls-feedback-form-label: 0.01em;
+  --ls-modal-form-label: 0.01em;
+  --ls-modal-form-placeholder: 0.01em;
+  --ls-modal-egreement: 0.03em;
   // Text colors
   --main-txt-cl: #757575;
   --title-txt-cl: #212121;

@@ -34,7 +34,7 @@
 
 .main__title {
   font-weight: var(--fw-main-title);
-  letter-spacing: 0.06em;
+  letter-spacing: var(--ls-main-title);
   color: var(--white-txt-cl);
   text-transform: uppercase;
   margin-left: auto;

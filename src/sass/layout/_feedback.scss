@@ -34,7 +34,7 @@
   flex-direction: column;
   font-size: var(--fs-feedback-form-label);
   line-height: var(--lh-feedback-form-label);
-  letter-spacing: 0.01em;
+  letter-spacing: var(--ls-feedback-form-label);
   margin-bottom: 4px;
 }
 

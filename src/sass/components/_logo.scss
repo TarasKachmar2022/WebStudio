@@ -2,7 +2,7 @@
   font-family: var(--logo-font);
   font-size: var(--fs-logo);
   line-height: var(--lh-logo);
-  letter-spacing: 0.03em;
+  letter-spacing: var(--ls-logo);
   color: var(--accent-cl);
 
   &--black {
