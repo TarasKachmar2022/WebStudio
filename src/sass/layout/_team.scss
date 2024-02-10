@@ -31,8 +31,8 @@
 .team__item {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
   background-color: var(--background-white-cl);
   box-shadow: var(--team-card-shadow);
 }
