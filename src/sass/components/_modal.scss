@@ -78,7 +78,7 @@
 
 .modal__title {
   display: block;
-  font-size: 20px;
+  font-size: var(--fs-modal-title);
   line-height: calc(23 / 20);
   color: var(--title-txt-cl);
   text-align: center;
@@ -123,17 +123,17 @@
 }
 
 .modal-form__agreement-text {
-  font-size: 10px;
+  font-size: var(--fs-modal-egreement-s);
   line-height: calc(12 / 10);
   letter-spacing: 0.03em;
 
   @media screen and (min-width: 480px) {
-    font-size: 12px;
+    font-size: var(--fs-modal-egreement-m);
     line-height: calc(14 / 12);
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 14px;
+    font-size: var(--fs-modal-egreement-d);
     line-height: calc(24 / 14);
   }
 }

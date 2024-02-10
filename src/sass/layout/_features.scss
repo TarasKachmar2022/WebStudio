@@ -23,7 +23,7 @@
 }
 
 .feature__title {
-  font-size: 14px;
+  font-size: var(--fs-feature-title);
   line-height: calc(16 / 14);
   color: var(--title-txt-cl);
   text-align: center;
@@ -35,6 +35,6 @@
 }
 
 .feature__descr {
-  font-size: 14px;
+  font-size: var(--fs-feature-descr);
   line-height: calc(24 / 14);
 }

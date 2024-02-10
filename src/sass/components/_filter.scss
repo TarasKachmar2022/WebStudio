@@ -41,7 +41,7 @@
 .filter__btn {
   display: block;
   font-weight: var(--fw-filter-btn);
-  font-size: 12px;
+  font-size: var(--fs-filter-btn);
   line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;

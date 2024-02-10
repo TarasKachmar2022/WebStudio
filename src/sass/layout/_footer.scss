@@ -40,7 +40,7 @@
 }
 
 .footer__address {
-  font-size: 14px;
+  font-size: var(--fs-footer-address);
   font-style: inherit;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
@@ -88,7 +88,7 @@
 
 .footer__title {
   color: var(--white-txt-cl);
-  font-size: 14px;
+  font-size: var(--fs-footer-title);
   line-height: calc(16 / 14);
   text-transform: uppercase;
   margin-bottom: 20px;

@@ -1,6 +1,6 @@
 .subscribe__title {
   color: var(--white-txt-cl);
-  font-size: 14px;
+  font-size: var(--fs-subscribe-title);
   line-height: calc(16 / 14);
   text-transform: uppercase;
   margin-bottom: 20px;

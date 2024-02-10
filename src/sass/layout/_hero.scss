@@ -42,12 +42,12 @@
   margin-bottom: 30px;
 
   @media screen and (min-width: 480px) {
-    font-size: 26px;
+    font-size: var(--fs-main-title-m);
     line-height: 1.62;
   }
 
   @media screen and (min-width: 1200px) {
-    font-size: 44px;
+    font-size: var(--fs-main-title-d);
     line-height: 1.36;
     max-width: 696px;
   }

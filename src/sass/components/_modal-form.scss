@@ -15,7 +15,7 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  font-size: 12px;
+  font-size: var(--fs-modal-form-label);
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   margin-bottom: 4px;
@@ -47,7 +47,7 @@
 
   &::placeholder,
   &::placeholder {
-    font-size: 12px;
+    font-size: var(--fs-modal-form-placeholder);
     font-style: italic;
     line-height: calc(14 / 12);
     letter-spacing: 0.01em;
