@@ -6,7 +6,7 @@
   z-index: 300;
   font-weight: var(--fw-header);
   font-size: var(--fs-header);
-  line-height: calc(16 / 14);
+  line-height: var(--lh-header);
   letter-spacing: 0.02em;
   background-color: var(--background-white-cl);
   border-bottom: 1px solid var(--header-border-cl);
@@ -113,7 +113,7 @@
 .header-contacts__email {
   @media screen and (max-width: 767px) {
     font-size: var(--fs-header-contacts-emeil-m);
-    line-height: 1.17;
+    line-height: var(--lh-header-contatcts-email);
     order: 1;
   }
 }
@@ -123,7 +123,7 @@
 
   @media screen and (min-width: 480px) {
     font-size: var(--fs-header-contacts-phone-m);
-    line-height: 1.18;
+    line-height: var(--lh-header-contatcts-phone-m);
   }
 
   @media screen and (min-width: 768px) {
@@ -175,7 +175,7 @@
 .header-socials__link {
   @media screen and (max-width: 767px) {
     font-size: var(--fs-header-socials-link);
-    line-height: calc(22 / 18);
+    line-height: var(--lh-header-socials-link);
     letter-spacing: 0.02em;
     color: var(--accent-cl);
     padding-top: 10px;

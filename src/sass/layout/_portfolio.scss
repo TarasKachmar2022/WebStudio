@@ -55,7 +55,7 @@
 
 .portfolio__overlay-descr {
   font-size: var(--fs-portfolio-overlay);
-  line-height: calc(28 / 16);
+  line-height: var(--lh-portfolio-overlay);
   color: var(--white-txt-cl);
 }
 
@@ -72,7 +72,7 @@
 .portfolio__card-title {
   font-weight: var(--fw-portfolio-card-title);
   font-size: var(--fs-portfolio-card-title);
-  line-height: calc(36 / 18);
+  line-height: var(--lh-portfolio-card-title);
   letter-spacing: 0.06em;
   color: var(--title-txt-cl);
   margin-bottom: 4px;
@@ -80,7 +80,7 @@
 
 .portfolio__card-descr {
   height: 100%;
-  line-height: calc(30 / 16);
+  line-height: var(--lh-portfolio-card-descr);
   font-weight: 500;
   overflow: auto;
 }

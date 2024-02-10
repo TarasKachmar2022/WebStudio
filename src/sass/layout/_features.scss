@@ -24,7 +24,7 @@
 
 .feature__title {
   font-size: var(--fs-feature-title);
-  line-height: calc(16 / 14);
+  line-height: var(--lh-feature-title);
   color: var(--title-txt-cl);
   text-align: center;
   margin-bottom: 10px;
@@ -36,5 +36,5 @@
 
 .feature__descr {
   font-size: var(--fs-feature-descr);
-  line-height: calc(24 / 14);
+  line-height: var(--lh-feature-descr);
 }

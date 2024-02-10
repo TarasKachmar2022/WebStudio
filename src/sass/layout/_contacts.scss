@@ -48,7 +48,7 @@
 
 .contacts__list {
   font-size: var(--fs-contacts-list);
-  line-height: calc(36 / 18);
+  line-height: var(--lh-contacts-list);
 }
 
 .contacts__link {
