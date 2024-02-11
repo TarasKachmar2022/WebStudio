@@ -9,7 +9,10 @@
     overflow-y: scroll;
     border-top: 1px solid var(--header-border-cl);
     transform: translateY(-100%);
-    transition-property: transform;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-property: transform, opacity, visibility;
     transition-duration: var(--duration);
     transition-timing-function: var(--timing-function);
   }
@@ -22,7 +25,14 @@
   }
 
   &.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: initial;
     transform: translateY(0);
+  }
+
+  &.is-open .mobile-menu__container {
+    border-bottom: none;
   }
 }
 
