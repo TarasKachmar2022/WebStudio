@@ -8,11 +8,9 @@
     position: absolute;
     bottom: 0;
     left: 0;
-
     font-size: var(--fs-site-nav);
     line-height: var(--lh-nav);
     flex-shrink: 0;
-    margin-bottom: 238px;
   }
 
   @media screen and (min-width: 768px) {
