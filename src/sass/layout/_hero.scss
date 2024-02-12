@@ -4,17 +4,40 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  background-image: linear-gradient(
-      var(--overlay-hero-cl),
-      var(--overlay-hero-cl)
-    ),
-    url(./../images/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
   @media screen and (max-width: 767px) {
     margin-top: 46px;
+
+    // mobile screen
+    background-image: var(--hero-gradient),
+      url('../images/hero/hero-bg-img_m.jpg');
+    background-image: -webkit-image-set(
+      url('../images/hero/hero-bg-img_m.webp') 1x
+    );
+    @include retina2 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@2x_m.jpg');
+      background-image: -webkit-image-set(
+        url('../images/hero/hero-bg-img@2x_m.webp') 2x
+      );
+    }
+    @include retina3 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@3x_m.jpg');
+      background-image: -webkit-image-set(
+        url('../images/hero/hero-bg-img@3x_m.webp') 3x
+      );
+    }
+    @include retina4 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@4x_m.jpg');
+      background-image: -webkit-image-set(
+        url('../images/hero/hero-bg-img@4x_m.webp') 4x
+      );
+    }
   }
 
   @media screen and (min-width: 480px) {
@@ -24,11 +47,63 @@
   @media screen and (min-width: 768px) {
     margin-top: 81px;
     max-width: 768px;
+
+    // tablet screen
+    background-image: var(--hero-gradient),
+      url('../images/hero/hero-bg-img_t.jpg');
+    background-image: -webkit-image-set(
+      url('../images/hero/hero-bg-img_t.webp') 1x
+    );
+    @include retina2 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@2x_t.jpg');
+      background-image: -webkit-image-set(
+        url('../images/hero/hero-bg-img@2x_t.webp') 2x
+      );
+    }
+    @include retina3 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@3x_t.jpg');
+      background-image: -webkit-image-set(
+        url('../images/hero/hero-bg-img@3x_t.webp') 3x
+      );
+    }
+    @include retina4 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@4x_t.jpg');
+      background-image: -webkit-image-set(
+        url('../images/hero/hero-bg-img@4x_t.webp') 4x
+      );
+    }
   }
 
   @media screen and (min-width: 1200px) {
     @include section(200px, 200px);
     max-width: 1600px;
+
+    // desktop screen
+    background-image: var(--hero-gradient),
+      url('../images/hero/hero-bg-img_d.jpg');
+    background-image: var(--hero-gradient),
+      -webkit-image-set(url('../images/hero/hero-bg-img_d.webp') 1x);
+    @include retina2 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@2x_d.jpg');
+      background-image: var(--hero-gradient),
+        -webkit-image-set(url('../images/hero/hero-bg-img@2x_d.webp') 2x);
+    }
+    @include retina3 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@3x_d.jpg');
+      background-image: var(--hero-gradient),
+        -webkit-image-set(url('../images/hero/hero-bg-img@3x_d.webp') 3x);
+    }
+    @include retina4 {
+      background-image: var(--hero-gradient),
+        url('../images/hero/hero-bg-img@4x_d.jpg');
+      background-image: var(--hero-gradient),
+        -webkit-image-set(url('../images/hero/hero-bg-img@4x_d.webp') 4x);
+    }
   }
 }
 

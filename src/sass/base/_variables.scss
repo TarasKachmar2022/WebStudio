@@ -115,8 +115,12 @@
   --subscribe-input-border-cl: rgba(255, 255, 255, 0.3);
   --input-border: rgba(33, 33, 33, 0.2);
   --border-header-socials: rgba(33, 33, 33, 0.2);
+  // Gradients
+  --hero-gradient: linear-gradient(
+    rgba(47, 48, 58, 0.4),
+    rgba(47, 48, 58, 0.4)
+  );
   // Overlay color
-  --overlay-hero-cl: rgba(47, 48, 58, 0.4);
   --overlay-portfolio-cl: rgba(33, 150, 243, 0.9);
   // Backdrop color
   --backdrop-cl: rgba(0, 0, 0, 0.2);
