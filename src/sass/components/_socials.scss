@@ -7,11 +7,16 @@
   @extend %centeredFlex;
   border-radius: 50%;
   color: var(--icon-cl);
-  width: 44px;
-  height: 44px;
+  width: calc(30px + (44 - 30) * ((100vw - 200px) / (1200 - 200)));
+  height: calc(30px + (44 - 30) * ((100vw - 200px) / (1200 - 200)));
   transition-property: color, background-color;
   transition-duration: var(--duration);
   transition-timing-function: var(--timing-function);
+
+  @media screen and (min-width: 480px) {
+    width: 44px;
+    height: 44px;
+  }
 
   &:hover,
   &:focus {

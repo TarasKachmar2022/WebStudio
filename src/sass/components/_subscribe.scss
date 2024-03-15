@@ -59,9 +59,12 @@
 
 .subscribe__btn {
   @extend %centeredFlex;
-  min-width: 200px;
-  height: 50px;
+  min-height: 50px;
   box-shadow: var(--subscribe-shadow);
+
+  @media screen and (min-width: 480px) {
+    min-width: 200px;
+  }
 
   @media screen and (max-width: 1199px) {
     margin: 0 auto;
