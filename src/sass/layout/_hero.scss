@@ -1,16 +1,14 @@
 .hero {
   @include section(118px, 118px);
   background-color: var(--background-hero-cl);
-  margin-left: auto;
   margin-right: auto;
+  margin-left: auto;
   text-align: center;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 
   @media screen and (max-width: 767px) {
-    margin-top: 46px;
-
     // mobile screen
     background-image: var(--hero-gradient),
       url('../images/hero/hero-bg-img_m.jpg');
